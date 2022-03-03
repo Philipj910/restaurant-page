@@ -1,0 +1,198 @@
+.container {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    font-family: "UniversLight";
+}
+
+@font-face {
+    font-family: "UniversLight";
+    src: url(font/Zurich__Light_BT.ttf);
+}
+
+.header {
+    display: flex;
+    margin-left: 15%;
+}
+
+#ncstateLogo {
+    background-color: rgb(207, 0, 0);
+    color: white;
+    padding: .5rem 1rem .5rem 1rem;
+}
+
+#headerFountain {
+    padding: .5rem 1rem .5rem 1rem;
+}
+
+#menuBtn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1.7rem;
+    margin-left: 3%;
+    background-color: black;
+    color: white;
+    height: 2.8rem;
+    width: 5.5rem;
+}
+
+#homeBtn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1.7rem;
+    margin-left: 20%;
+    background-color: black;
+    color: white;
+    height: 2.8rem;
+    width: 5.5rem;
+}
+
+#homeBtn:hover {
+    cursor: pointer;
+}
+
+#contactBtn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1.7rem;
+    margin-left: 3%;
+    background-color: black;
+    color: white;
+    height: 2.8rem;
+    width: 5.5rem;
+}
+
+#contactBtn:hover {
+    cursor: pointer;
+}
+
+.background {
+    display: flex;
+    justify-content: center;
+}
+
+.description {
+    margin: 2% 15% 2% 15%;
+}
+
+h3 {
+    font-weight: 500;
+}
+
+#persuade {
+    font-size: 1.2rem;
+    margin-top: 2.2rem;
+    border-bottom: .5px solid gray;
+}
+
+.reviewsBox {
+    display: flex;
+}
+
+.redditReview {
+    background-color: rgb(202, 202, 202);
+    padding: 2rem;
+    margin-top: 3rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    border-radius: 3%;
+}
+
+/* ---------- Menu Page -----------------------*/
+
+.menuContainer {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    font-family: "UniversLight";
+    margin: 2% 15% 2% 0;
+    margin-right: 10rem;
+
+}
+
+#menuBtn:hover {
+    cursor: pointer;
+}
+
+.menuItems {
+    display: block;
+    font-size: 1.17em;
+    margin: 2% 15% 2% 15%;
+    border-bottom: 1px solid gray;
+}
+
+.pizzaContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0% 15% 2% 15%;
+}
+
+#pizzaText {
+    font-size: 2rem;
+}
+
+#pizzaImg {
+    height: 50vh;
+    width: 50vh;
+}
+
+.thingContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0% 15% 2% 15%;
+    border-top: 1px solid gray;
+}
+
+#thingText {
+    font-size: 2rem;
+}
+
+#thingImg {
+    height: 50vh;
+    width: 50vh;
+}
+
+.bananaContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0% 15% 2% 15%;
+    border-top: 1px solid gray;
+}
+
+#bananaText {
+    font-size: 2rem;
+}
+
+#bananaImg {
+    height: 50vh;
+    width: 50vh;
+}
+
+/* -------- Contact Button ---------- */
+
+.contactContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+} 
+
+.contactBox {
+    display: flex;
+    flex-direction: column;
+    margin-top: 5rem;
+    background-color: rgb(202, 202, 202);
+    padding: 5rem;
+    border-radius: 3%;
+}
+
+.contactHeader {
+    border-bottom: 1px solid gray;
+}
